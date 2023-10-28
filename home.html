@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to DOCX Converter</title>
+    <style>
+        body {
+            background-image: url('bc4.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 50px;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        .navbar img {
+            width: 40px;
+            height: 40px;
+            border-radius: 80%;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 100px auto;
+            max-width: 400px;
+        }
+
+        .main {
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 100px auto;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #9b44d4;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .text {
+            text-rendering: auto;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            color: #4d4fbc;
+            padding-top: 5%;
+        }
+
+        .boxes {
+            display: flex; /* Use flexbox to arrange items horizontally */
+            justify-content: space-between; /* Distribute space between the boxes */
+            margin: 20px 0;
+            padding-top: 7%;
+        }
+
+        .box {
+            flex: 1; /* Allow boxes to take equal space */
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 10px;
+            color: white;
+            padding: 20px;
+        }
+
+        .box h2 {
+            margin: 0;
+        }
+
+        .box button {
+            display: block;
+            margin: 10px auto;
+        }
+
+        .box button a {
+            text-decoration: none; /* Remove underline from the anchor element */
+            color: white;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .container, .main {
+                max-width: 80%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container, .main {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#"><img src="home.png" alt="Logo"></a>
+        <a href="#"><img src="about.png" alt="Logo"></a>
+        <a href="https://github.com/Srujan-rai"><img src="github.png" alt="Logo"></a>
+    </div>
+
+    <h1>File Converter</h1>
+
+    <div class="text">
+        <h2>Transforming documents seamlessly, our all-in-one file converter effortlessly transmutes PDFs into editable, dynamic documents and breathes new life into conventional text files by converting them into universally compatible, sleek PDFs. Unlock the power of versatile document conversion at your fingertips.</h2>
+    </div>
+    <div class="boxes">
+        <div class="box">
+            <h2>PDF to DOC Converter</h2>
+            <button><a href="pdf-to-doc-converter.html">Convert</a></button>
+        </div>
+
+        <div class="box">
+            <h2>DOC to PDF Converter</h2>
+            <button><a href="doc-to-pdf-converter.html">Convert</a></button>
+        </div>
+    </div>
+</body>
+</html>
